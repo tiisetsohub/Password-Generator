@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
 
 body {
-    background-color: #1C1C1C
+    background-color: #1C1C1C;
+    padding: 0;
+    margin: 0;
 }
 
 div{
@@ -11,18 +13,19 @@ width: 100%;
 font-style: normal;
 line-height: 48px;
 background-color: #273549;
+text-align: left;
+padding: 10px ;
+width: 100%;
 margin: auto;
-padding: 10px;
+
 }
 
 #title1{
-
+    
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
     color: white;
-    margin-left: 5%;
-    margin-top: 7%;
 }
 
 
@@ -32,22 +35,17 @@ padding: 10px;
     font-weight: 400;
     font-size: 32px;
     color: #D97706;
-    margin-left: 5%;
-    margin-top: -7%
 }
 
 #para{
     font-family: 'Inter';
     font-size: 16px;
     color:grey;
-    margin-left: 5%;
-    margin-top:-7%;
 }
 
 
 button{
     background-color: #D97706;
-    margin-left: 5%;
     font-size: 14px;
     color: white;
     padding-top: 1%;
@@ -62,47 +60,3 @@ hr.solid{
     margin: 2%;
 }
 
-#pass1{
-    margin-left:20%;
-    background-color: #6B7280;
-    border-radius: 5px;
-    border:white;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
-
-}
-
-#pass2{
-    margin-left:10%;
-    background-color: #6B7280;
-    border-radius: 5px;
-    border:white;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-#pass3{
-    margin-left:20%;
-    background-color: #6B7280;
-    border-radius: 5px;
-    border:white;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-#pass4{
-    margin-left:10%;
-    background-color: #6B7280;
-    border-radius: 5px;
-    border:white;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
-}
